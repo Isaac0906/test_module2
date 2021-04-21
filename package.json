@@ -5,7 +5,7 @@
     "displayName": "Submodule2 depends on submodule1",
     "description": "This is test submodule for package manager test",
     "keywords":["submodule", "submodule2"],
-    "dependencies": {
-	"com.111percent.submodule1": "https://github.com/Isaac0906/test_module1.git#v0.1.0"
+    "gitDependencies": {
+	"com.111percent.submodule1": "https://github.com/Isaac0906/test_module1.git#v0.2.0"
     }
 }
